@@ -1,0 +1,96 @@
+{
+  "created_at": "2026-10-01T00:40:38.253458Z",
+  "delivery_id": "dlv_aud_0_1_c31c773322c8d3c3",
+  "entries": [
+    {
+      "envelope": {
+        "created_at": "2026-10-01T00:39:35.198990Z",
+        "event_key": "release_sealed:pubv_2b9b314d3f3b9d05f953",
+        "event_type": "release_sealed",
+        "leaf_version": "tl1",
+        "payload": {
+          "batch_id": "pubb_bd18c202095eb9332197",
+          "manifest_digest": "cc414e73ab83eebb72297eee3123514f08c8ee6f35c6924e2f53a01e118edc56",
+          "parent_manifest_digest": null,
+          "seq": 1,
+          "teams": [
+            "team_8d2a1de24320189130ab",
+            "team_f48c2c5eac6134388a09"
+          ],
+          "version_id": "pubv_2b9b314d3f3b9d05f953"
+        },
+        "subject_id": "pubv_2b9b314d3f3b9d05f953"
+      },
+      "event_key": "release_sealed:pubv_2b9b314d3f3b9d05f953",
+      "event_type": "release_sealed",
+      "inclusion_path": [
+        "2401e5a3130d06ea27d564f4c7a6dd925c49d681cc991c5be7ab259cfd8a7c39",
+        "e5f4c8af6f0506d743c3ca2997fea3db054a85cffed40cd51b1e1eb665cebacc"
+      ],
+      "leaf_hash": "953a8384286ecee7db09112a9817719a2e408fb77859daaec130dcd2d0dbdb98",
+      "matched": true,
+      "seq": 0
+    },
+    {
+      "envelope": {
+        "created_at": "2026-10-01T00:39:35.208450Z",
+        "event_key": "share_issued:shr_b7ef8ae398e1a6480ca6",
+        "event_type": "share_issued",
+        "leaf_version": "tl1",
+        "payload": {
+          "expires_at": "2026-10-01T01:39:35.206165Z",
+          "fields": [
+            "members",
+            "participants",
+            "receipts",
+            "statements"
+          ],
+          "fields_hash": "057a57cb777cf2c66b32cbaa19d8c8658e57a0d631e78f134de87ee8f0d59c62",
+          "manifest_digest": "cc414e73ab83eebb72297eee3123514f08c8ee6f35c6924e2f53a01e118edc56",
+          "package_digest": "af88bcf2ebe8f64aa16a4ff5f7759364718316f0ace6a4a60d122992b34ea8fc",
+          "parent_digest": null,
+          "share_id": "shr_b7ef8ae398e1a6480ca6",
+          "team_id": "team_f48c2c5eac6134388a09",
+          "version_id": "pubv_2b9b314d3f3b9d05f953"
+        },
+        "subject_id": "shr_b7ef8ae398e1a6480ca6"
+      },
+      "event_key": "share_issued:shr_b7ef8ae398e1a6480ca6",
+      "event_type": "share_issued",
+      "inclusion_path": [
+        "953a8384286ecee7db09112a9817719a2e408fb77859daaec130dcd2d0dbdb98",
+        "e5f4c8af6f0506d743c3ca2997fea3db054a85cffed40cd51b1e1eb665cebacc"
+      ],
+      "leaf_hash": "2401e5a3130d06ea27d564f4c7a6dd925c49d681cc991c5be7ab259cfd8a7c39",
+      "matched": true,
+      "seq": 1
+    }
+  ],
+  "filter": {
+    "match": "any",
+    "rules": [
+      {
+        "event_types": [
+          "release_sealed",
+          "share_issued"
+        ],
+        "payload_equals": {},
+        "subject_prefix": null
+      }
+    ]
+  },
+  "filter_version": 1,
+  "package_version": "dp1",
+  "seq_end": 1,
+  "seq_start": 0,
+  "tenant_id": "aud",
+  "tree_head": {
+    "checkpoint_version": "tc1",
+    "issued_at": "2026-10-01T00:39:35.211808Z",
+    "prev_root_hash": "2c4abcabfc737e4cc9193935a4759943cbe1b129ef93010f44b9da552188746a",
+    "prev_size": 2,
+    "root_hash": "c8a698add6f0cfc8b3239485d035897853eaf03287803a83537258d4a8a6deed",
+    "sig": "22aabd1794c0109dba1698d6f3b268f4800ec08607cfcaaea98c7558786ad44a",
+    "tree_size": 3
+  }
+}

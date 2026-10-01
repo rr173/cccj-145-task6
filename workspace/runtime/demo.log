@@ -1,0 +1,3 @@
+audit-relay serving on http://127.0.0.1:8090
+ops dashboard: http://127.0.0.1:8090/ops
+demo upstream: http://127.0.0.1:42931 (control token demo-control-Ta4v3LJhWyogoaYw)

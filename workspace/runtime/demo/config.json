@@ -1,0 +1,8 @@
+{
+  "admin_token": "arradm_79yVOvHy9pgPnGjR6D23NxfPTmybbeTp",
+  "lease_seconds": 5,
+  "sync_interval": 2.0,
+  "upstream_secret": "b32597df060ca0accd85a08dc0ad6d30fc5cd42f47070cab780406e8cc1c5c84",
+  "upstream_token": "demo-read-token",
+  "upstream_url": "http://127.0.0.1:44509"
+}

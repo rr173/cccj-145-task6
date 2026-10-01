@@ -1,0 +1,8 @@
+{
+  "admin_token": "arradm_cClFPlYGxRbr5SaunEfCmdHOmmXpfFi7",
+  "lease_seconds": 30,
+  "sync_interval": 2.0,
+  "upstream_secret": "dd33c6fb66d2ccdb8cacf613b19b1edd5fd29525c868ef2ac014f864f957b730",
+  "upstream_token": "dpt_krsIyKrEZiEMmXAYvepIsLKAa0CxDEt6",
+  "upstream_url": "http://127.0.0.1:8123"
+}
